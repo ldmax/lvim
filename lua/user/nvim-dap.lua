@@ -4,7 +4,7 @@ if not dap_status_ok then
 end
 
 -- Note: for windows, EXE has to be capitalized
-local python_exe = "/usr/bin/python3"
+local python_exe = "C:/Program Files/Python310/python.exe"
 local r_exe = "/usr/bin/R"
 
 dap.adapters.python = {

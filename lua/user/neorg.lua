@@ -10,11 +10,14 @@ neorg.setup {
         ["core.norg.dirman"] = {
             config = {
                 workspaces = {
-                    old = "/mnt/c/Users/M310131/AppData/Roaming/org-roam/",
-                    default = "$HOME/norg",
+                    old = "$HOME/AppData/Roaming/org-roam/",
                     work = "$HOME/norg/work",
                     home = "$HOME/norg/home",
-                }
+                    plan = "$HOME/norg/plan",
+                    trading = "$HOME/norg/trading",
+                    journal = "$HOME/norg/journal",
+                },
+                default_workspace = "work",
             }
         }
     }
