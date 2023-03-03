@@ -16,7 +16,8 @@ neorg.setup {
                     plan = "$HOME/norg/plan",
                     trading = "$HOME/norg/trading",
                     journal = "$HOME/norg/journal",
-                    org = "$HOME/org-roam"
+                    org = "$HOME/org-roam",
+                    nvim = "$HOME/norg/nvim",
                 },
                 default_workspace = "default",
             }
