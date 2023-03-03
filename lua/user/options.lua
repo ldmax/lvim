@@ -46,12 +46,12 @@ vim.opt.shortmess:append "c"                           -- don't give |ins-comple
 vim.opt.iskeyword:append "-"                           -- hyphenated words recognized by searches
 vim.opt.formatoptions:remove({ "c", "r", "o" })        -- don't insert the current comment leader automatically for auto-wrapping comments using 'textwidth', hitting <Enter> in insert mode, or hitting 'o' or 'O' in normal mode.
 -- vim.opt.runtimepath:remove("/usr/share/vim/vimfiles")  -- separate vim plugins from neovim in case vim still in use
-vim.g.python3_host_prog = "C:/Program Files/Python310/python.exe"
+vim.g.python3_host_prog = "/usr/bin/python3"
 
 -- enable radian
 vim.g.R_app = "radian"
 vim.g.R_cmd = "R"
-vim.g.R_csv_app = "terminal:visidata.exe"
+vim.g.R_csv_app = "terminal:vd"
 
 -- config for neovide
 if vim.g.neovide then
@@ -67,3 +67,6 @@ if vim.g.neovide then
     change_scale_factor(1/1.25)
   end)
 end
+
+-- close default folding
+vim.opt.foldlevelstart = 99

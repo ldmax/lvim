@@ -13,12 +13,13 @@ iron.setup {
         -- Can be a table or a function that
         -- returns a table (see below)
         command = {"cmd"}
-      }
+      },
+      python = require("iron.fts.python").ipython
     },
     -- How the repl window will be displayed
     -- See below for more information
     --repl_open_cmd = require('iron.view').bottom(40),
-    repl_open_cmd = "vertical botright 40 split"
+    repl_open_cmd = "vertical botright 70 split"
   },
   -- Iron doesn't set keymaps by default anymore.
   -- You can set them here or manually add keymaps to the functions in iron.core

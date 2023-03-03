@@ -82,6 +82,7 @@ lvim.builtin.treesitter.ensure_installed = {
   "rust",
   "java",
   "yaml",
+  "r"
 }
 
 lvim.builtin.treesitter.ignore_install = { "haskell" }
@@ -190,6 +191,7 @@ lvim.plugins = {
   {"nvim-neorg/neorg"},
   {"hkupty/iron.nvim"},
   {"jalvesaq/Nvim-R"},
+  {"itchyny/calendar.vim"},
 }
 
 -- import my pluggins
@@ -199,4 +201,3 @@ require("user.nvim-R")
 require("user.options")
 require("user.nvim-dap")
 require("user.nvim-dap-ui")
-require("user.mymason")
