@@ -192,6 +192,7 @@ lvim.plugins = {
   {"hkupty/iron.nvim"},
   {"jalvesaq/Nvim-R"},
   {"itchyny/calendar.vim"},
+  {"stevearc/aerial.nvim"},
 }
 
 -- import my pluggins
@@ -201,3 +202,4 @@ require("user.nvim-R")
 require("user.options")
 require("user.nvim-dap")
 require("user.nvim-dap-ui")
+require("user.aerial")
