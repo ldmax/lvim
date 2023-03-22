@@ -193,6 +193,8 @@ lvim.plugins = {
   {"jalvesaq/Nvim-R"},
   {"itchyny/calendar.vim"},
   {"stevearc/aerial.nvim"},
+  {"jackMort/ChatGPT.nvim"},
+  {"MunifTanjim/nui.nvim"},
 }
 
 -- import my pluggins
@@ -203,3 +205,4 @@ require("user.options")
 require("user.nvim-dap")
 require("user.nvim-dap-ui")
 require("user.aerial")
+require("user.ChatGPT")
