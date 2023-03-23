@@ -66,6 +66,8 @@ if vim.g.neovide then
   vim.keymap.set("n", "<C-->", function()
     change_scale_factor(1/1.25)
   end)
+
+  vim.g.neovide_cursor_vfx_mode = "wireframe"
 end
 
 -- close default folding
