@@ -4,7 +4,7 @@ vim.g.copilot_assume_mapped = true
 -- vim.api.nvim_set_keymap("i", "<C-J>", 'copilot#Accept("<CR>")', { silent = true, expr = true })
 
 -- copilot proxy
-vim.g.copilot_proxy = 'localhost:20171'
+-- vim.g.copilot_proxy = 'localhost:20171'
 
 -- disable filetypes
 vim.g.copilot_filetypes = { xml = false }
